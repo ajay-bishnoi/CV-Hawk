@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV-Hawk</title>
+    <link rel="icon" href="./assets/img/svg/CV-logo.svg">
+
+    <!-- slick-theme.min.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- slick.min.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- aos link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+</head>
+
+<body>
+    <!-- preloader -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loader d-flex justify-content-center align-items-center">
+            <img src="./assets/img/png/footerlogo.webp" class="pointer mb-1" alt="image">
+        </div>
+    </div>
+    <!-- header -->
+    <header class="h-100vh d-lg-flex flex-lg-column position-relative z-3 overflow-hidden">
+        <nav class="w-100">
+            <div class="max-1140 mx-auto">
+                <div class="d-flex align-items-center justify-content-between">
+                    <img src="./assets/img/png/Logo.webp" class="logo pointer" alt="CV-Hawk-logo">
+                    <ul class="ps-0 mb-0 d-flex align-items-center gap-41 closeNav moblieView">
+                        <img src="./assets/img/png/Logo.webp" class="logo pointer d-sm-none" alt="CV-Hawk-logo">
+                        <li><a onclick="navWorking()" class="fw-400 fs-16 lh-18 clr-black navItem bottom-line"
+                                href="#Home">Home</a>
+                        </li>
+                        <li><a onclick="navWorking()" class="fw-400 fs-16 lh-18 clr-black navItem bottom-line"
+                                href="#About">About</a></li>
+                        <li><a onclick="navWorking()" class="fw-400 fs-16 lh-18 clr-black navItem bottom-line"
+                                href="#Wellhelpyou">We’ll help you</a>
+                        </li>
+                        <li><a onclick="navWorking()" class="fw-400 fs-16 lh-18 clr-black navItem "
+                                href="#Testimonials">Testimonials</a></li>
+                        <button class="fw-600 fs-16 lh-18 clr-white-fa Get-btn d-sm-none d-block">Get in touch</button>
+                    </ul>
+                    <div class="d-flex gap-30 align-items-center">
+                        <button class="fw-600 fs-16 lh-18 clr-white-fa Get-btn d-none d-sm-block">Get in touch</button>
+                        <div class="menu d-lg-none" onclick="openNav()">
+                            <span></span>
+                            <span class="my-2"></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- hero section -->
+        <section id="Home"
+            class="flex-lg-grow-1 d-lg-flex justify-content-lg-center flex-lg-column py-102-155 position-relative z-3">
+            <div class="container_1140 position-relative z-3">
+                <div class="ellips-orange8"></div>
+                <h1 class="fw-600 text-center fs-52 lh-61 clr-black mb-3">
+                    Unlock Your Potential with a
+                    <span class="d-sm-block">Professional <span class="position-relative orangeLine">CV
+                            Builder</span></span>
+                </h1>
+                <p class="fw-400 text-center fs-16 lh-24 clr-black opacity_07 mb-40">
+                    Our user-friendly platform guides you through the process, allowing you to
+                    <span class="d-sm-block">customize every section to align with your unique career goals.</span>
+                </p>
+                <div class="d-flex align-items-center gap-17 justify-content-center flex-wrap">
+                    <button class="Get-btn fs-16 lh-18 fw-600 clr-white-fa">Get Started</button>
+                    <button class="Demo-btn fs-16 lh-18 fw-600 clr-orange">Watch Demo</button>
+                </div>
+                <!-- position image -->
+                <img src="./assets/img/svg/orangeboll.svg" class="orangeboll d-none d-sm-block" alt="boll">
+                <!--  -->
+                <img src="./assets/img/png/Elegant1.webp" class="elegant1 d-none d-sm-block animatoin2"
+                    alt="elegant-image">
+                <img src="./assets/img/png/Elegant2.webp" class="elegant2 d-none d-sm-block  animatoin1"
+                    alt="elegant-image">
+                <img src="./assets/img/png/Elegant3.webp" class="elegant3 d-none d-sm-block animatoin1"
+                    alt="elegant-image">
+                <img src="./assets/img/png/Elegant4.webp" class="elegant4 d-none d-sm-block animatoin2  "
+                    alt="elegant-image">
+                <!--  -->
+                <div class="elegant-slider d-sm-none mt-35 ">
+                    <img src="./assets/img/png/Elegant5.webp" class="w-100 elegant-5 w-100" alt="elegant-image">
+                    <img src="./assets/img/png/Elegant5.webp" class="w-100 elegant-5 w-100" alt="elegant-image">
+                    <img src="./assets/img/png/Elegant5.webp" class="w-100 elegant-5 w-100" alt="elegant-image">
+                    <img src="./assets/img/png/Elegant5.webp" class="w-100 elegant-5 w-100" alt="elegant-image">
+                </div>
+            </div>
+            <!--  -->
+            <img src="./assets/img/svg/rectangle.svg" class="position-absolute z-3 animation3"
+                alt="rectangle-animatoin">
+            <img src="./assets/img/svg/half-U.svg" class="position-absolute z-3 animation4" alt="half-U-animatoin">
+            <img src="./assets/img/svg/tablet.svg" class="position-absolute z-3 animation5 d-none d-md-block"
+                alt="tablet-animatoin">
+        </section>
+    </header>
+    <!-- main section -->
+    <main class="position-relative overflow-hidden z-3">
+        <!-- Themes -->
+        <section id="Testimonials" class="py-165-160">
+            <div class="container_1140 position-relative z-3">
+                <div class="ellips-orange6"></div>
+                <div class="ellips-orange7"></div>
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <img src="./assets/img/png/gif.gif" class="gif w-100 " alt="gif-image">
+                    </div>
+                    <div class="col-lg-6 col-12 mt-lg-60">
+                        <div>
+                            <div class="responsive-slider">
+                                <div
+                                    class="d-flex flex-column justify-content-center align-items-center gap-19 iconBox">
+                                    <img src="./assets/img/svg/themes.svg" alt="Themes">
+                                    <h4 class="mb-0 fw-500 fs-22 lh-26 clr-black">Themes</h4>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-center align-items-center gap-19 iconBox">
+                                    <img src="./assets/img/svg/customize.svg" alt="Customize">
+                                    <h4 class="mb-0 fw-500 fs-22 lh-26 clr-black">Customize</h4>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-center align-items-center gap-19 iconBox">
+                                    <img src="./assets/img/svg/make-copies.svg" alt="make-copies">
+                                    <h4 class="mb-0 fw-500 fs-22 lh-26 clr-black">Make copies</h4>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-center align-items-center gap-19 iconBox">
+                                    <img src="./assets/img/svg/templets.svg" alt="templates">
+                                    <h4 class="mb-0 fw-500 fs-22 lh-26 clr-black">Templates</h4>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-center align-items-center gap-19 iconBox">
+                                    <img src="./assets/img/svg/version-history.svg" alt="version-history">
+                                    <h4 class="mb-0 fw-500 fs-22 lh-26 clr-black text-center">Version history</h4>
+                                </div>
+                            </div>
+                            <p class="mb-0 fw-400 lh-24 fs-16 clr-black opacity_08 ">
+                                Theme's robust features allow you to showcase your skills, accomplishments, and
+                                experiences in a captivating way. From
+                                customizing the layout to selecting the perfect color scheme, every detail can be
+                                tailored to match your style and
+                                industry.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Powerful Tools -->
+        <section class="bg-white-f9 py-80">
+            <div class="container_1140 position-relative z-3">
+                <div class="row align-items-center d-flex">
+                    <div class="col-lg-6 col-md-7 col-12">
+                        <div>
+                            <h2 class="mb-sm-4 mb-3 fw-500 fs-40 lh-48 clr-black-01">Powerful Tools to Create <span
+                                    class="clr-orange line1 position-relative">Your
+                                    <span class="line3 position-relative ">Standout CV</span></span>
+                            </h2>
+                            <p class="mb-0 fw-400 fs-16 lh-24 clr-black opacity_08">
+                                Customize your CV to reflect your <b>unique personality</b> and professional brand.
+                                Choose from
+                                a wide range of <b>professionally
+                                    designed</b> templates and layouts, allowing you to find the <b>perfect style</b>
+                                that
+                                aligns with
+                                your industry and career goals.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-5 col-12 justify-content-center justify-content-md-start d-sm-flex mt-xsm-40 mt-sm-5 mt-md-0">
+                        <img src="./assets/img/png/onWork.webp" class="max-496 w-100" alt="onWork">
+                    </div>
+                </div>
+                <img src="./assets/img/svg/rectangle.svg" class="position-absolute animation7 "
+                    alt="rectangle-animatoin">
+                <img src="./assets/img/svg/half-U.svg" class="position-absolute animation8 d-none d-lg-block"
+                    alt="half-U-animatoin">
+                <!-- position boll -->
+                <img src="./assets/img/svg/orangeboll.svg" class="orangeboll2 d-none d-sm-block" alt="boll">
+            </div>
+        </section>
+        <!-- We’ll help you -->
+        <section id="Wellhelpyou" class="py-161">
+            <div class="container_1140 position-relative z-3">
+                <div class="ellips-orange4"></div>
+                <div class="ellips-orange5"></div>
+                <div class="row d-flex align-items-center flex-column-reverse flex-md-row">
+                    <div
+                        class="col-md-6 col-12 justify-content-center justify-content-md-start d-sm-flex mt-xsm-40 mt-sm-5 mt-md-0 ">
+                        <img src="./assets/img/png/calender.webp" class="max-548 w-100" alt="calender">
+                    </div>
+                    <div class="col-md-6 col-12 ">
+                        <div>
+                            <h2 class="fw-500 fs-40 lh-48 clr-black-01 mb-4">We’ll help you</h2>
+                            <p class="fw-400 clr-black opacity_08 fs-16 lh-24 mb-0">
+                                Once you've booked a session, a confirmation email will be sent to the provided email
+                                address, containing all the
+                                necessary details, including the date, time, and instructions for the session.
+                            </p>
+                            <button class="Get-btn fs-16 lh-18 fw-600 clr-white-fa mt-40">Get
+                                Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 20+ Professionally -->
+        <section class="py-100 bg-white-f9 position-relative z-3">
+            <div class="container_1140">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-12">
+                        <div>
+                            <h2 class="mb-lg-4 mb-3 fw-500 fs-40 lh-48 clr-black-01">
+                                20+ <span class="clr-orange">Professionally designed</span> resume sections
+                            </h2>
+                            <p class="fw-400 fs-16 lh-24 clr-black opacity_08 mb-24 ">
+                                Express your professional history without limitations or worry about how your resume
+                                looks
+                            </p>
+                            <div class="d-flex flex-column gap-16 mb-40 mb-xsm-0">
+                                <div class="d-flex align-items-xxl-center gap-09">
+                                    <span><img src="./assets/img/svg/orangetick.svg" alt="orangetick"></span>
+                                    <h5 class="mb-0 fw-400 fs-16 lh-24 clr-black opacity_09">
+                                        Professional sections like <b> Experience, Skills, Summary </b> and
+                                        <b>Education</b>
+                                    </h5>
+                                </div>
+                                <div class="d-flex align-items-xxl-center  gap-09">
+                                    <span> <img src="./assets/img/svg/orangetick.svg" alt="orangetick"></span>
+                                    <h5 class="mb-0 fw-400 fs-16 lh-24 clr-black opacity_09">
+                                        Professional sections like <b> Strengths, Quotes, Books, Interests </b> and
+                                        <b>My Time.</b>
+                                    </h5>
+                                </div>
+                                <div class="d-flex align-items-xxl-center  gap-09">
+                                    <span> <img src="./assets/img/svg/orangetick.svg" alt="orangetick"></span>
+                                    <h5 class="mb-0 fw-400 fs-16 lh-24 clr-black opacity_09">
+                                        Other sections like <b>Certifications, Awards, Achievements, Language</b> and
+                                        <b>Reference</b>
+                                    </h5>
+                                </div>
+                            </div>
+                            <button class="Get-btn fs-16 lh-18 fw-600 clr-white-fa d-none d-sm-inline">Get
+                                Started</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 mt-sm-48 justify-content-center justify-content-md-start d-sm-flex">
+                        <div class="max-509-h-422 w-100 position-relative d-flex flex-column">
+                            <img src="./assets/img/png/design-1.webp" class="design1 w-100  " alt="design-1">
+                            <img src="./assets/img/png/design-2.webp" class="design2 w-100  position-absolute "
+                                alt="design-2">
+                            <img src="./assets/img/png/design-3.webp" class="design3 w-100  position-absolute "
+                                alt="design-3">
+                            <img src="./assets/img/png/design-4.webp" class="design4 w-100  position-absolute "
+                                alt="design-4">
+                            <div class="ellips-orange"></div>
+                        </div>
+                        <button class="Get-btn fs-16 lh-18 fw-600 clr-white-fa d-sm-none mt-xms-33">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Resume trailoring -->
+        <section class="py-161">
+            <div class="container_1140 position-relative">
+                <div class="ellips-orange2"></div>
+                <div class="row justify-content-between d-flex align-items-center flex-column-reverse flex-md-row">
+                    <div
+                        class="col-md-5 col-lg-6 col-12 mt-sm-48 justify-content-center justify-content-md-start d-flex">
+                        <div class="position-relative Cv-h-w w-100 d-flex align-items-end">
+                            <img src="./assets/img/png/Elegant-Clean-1.webp" class="w-100 elegantClean"
+                                alt="elegantClean-image">
+                            <div class="d-flex align-items-center gap-10 cardShadow">
+                                <div>
+                                    <img src="./assets/img/svg/paint.svg" alt="paint">
+                                </div>
+                                <div>
+                                    <img src="./assets/img/svg/calculator.svg" alt="calculator">
+                                </div>
+                            </div>
+                            <img src="./assets/img/png/Create-cv.webp" class="Create-cv" alt="Create-cv-image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-7 col-12 d-flex justify-content-md-end">
+                        <div class="max-lg-384">
+                            <h2 class="mb-lg-4 mb-3 fw-500 fs-40 lh-48 clr-black-01">
+                                Resume trailoring based on the <span class="clr-orange line2 position-relative">job
+                                    you’re applying</span> for
+                            </h2>
+                            <p class="fw-400 fs-16 lh-24 clr-black opacity_08 mb-24">
+                                Quickly ensure that your resume covers key skills and experience by pasting the job ad
+                                you’re applying for
+                            </p>
+                            <div class="d-flex flex-column gap-16">
+                                <div class="d-flex align-items-xxl-center  gap-09">
+                                    <span><img src="./assets/img/svg/orangetick.svg" alt="orangetick"></span>
+                                    <h5 class="mb-0 fw-400 fs-16 lh-24  clr-black opacity_09">
+                                        Skills and experience analysis
+                                    </h5>
+                                </div>
+                                <div class="d-flex align-items-xxl-center   gap-09">
+                                    <span> <img src="./assets/img/svg/orangetick.svg" alt="orangetick"></span>
+                                    <h5 class="mb-0 fw-400 fs-16 lh-24  clr-black opacity_09">
+                                        SActionable Checklist of what else to add to your resume
+                                    </h5>
+                                </div>
+                                <div class="d-flex align-items-xxl-center   gap-09">
+                                    <span> <img src="./assets/img/svg/orangetick.svg" alt="orangetick"></span>
+                                    <h5 class="mb-0 fw-400 fs-16 lh-24 clr-black opacity_09">
+                                        Instant comparison between your resume and the job posting
+                                    </h5>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- What our Clients Say -->
+        <section id="About" class="py-81 bg-white-f9">
+            <div class="container_1140 position-relative">
+                <div class="ellips-orange3"></div>
+                <div class="mb-45 position-relative z-3 d-block">
+                    <h2 class="mb-0 fw-500 fs-40 lh-48 clr-black-01 text-center">What our Clients Say</h2>
+                    <img src="./assets/img/svg/semi-colon.svg" class="colon-ellips" alt="semi-ellips">
+                </div>
+                <div class="single-item">
+                    <div class="container_1140">
+                        <div class="row justify-content-center d-flex">
+                            <div class="col-lg-4 col-sm-6 col-12">
+                                <div class="mt-26">
+                                    <div class="commet-box w-100 position-relative z-3">
+                                        <p class="mb-0 fw-400 fs-16 lh-24 clr-black opacity_08">
+                                            Sit urna ornare sed quam molestie sit placerat convallis.Ac condimentum
+                                            <span class="d-none d-sm-inline">
+                                                mollis malesuada placerat in placerat</span>
+                                        </p>
+                                        <span class="triange">
+                                            <svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-10 m-40-20">
+                                        <img class="pointer" src="./assets/img/svg/profile-pic1.svg" alt="profile-pic">
+                                        <div>
+                                            <h4 class="mb-1 fw-400 fs-20 lh-24 clr-black-01">Darrell Steward</h4>
+                                            <img class="pointer" src="./assets/img/svg/star.svg" alt="star-image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-6 d-none d-sm-block">
+                                <div class="mt-lg-40">
+                                    <div class="commet-box w-100 position-relative z-3">
+                                        <p class="mb-0 fw-400 fs-16 lh-24 clr-black opacity_08">
+                                            Magna ipsum erat magna nulla auctor. Phasellus consectetur aliquam vel at
+                                            non
+                                            faucibus viverra.
+                                        </p>
+                                        <span class="triange">
+                                            <svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-10 m-40-20">
+                                        <img class="pointer" src="./assets/img/svg/profile-pic2.svg" alt="profile-pic">
+                                        <div>
+                                            <h4 class="mb-1 fw-400 fs-20 lh-24 clr-black-01">Savannah Nguyend</h4>
+                                            <img class="pointer" src="./assets/img/svg/star.svg" alt="star-image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 d-none d-lg-block">
+                                <div class="mt-43">
+                                    <div class="commet-box w-100 position-relative z-3">
+                                        <p class="mb-0 fw-400 fs-16 lh-24 clr-black opacity_08">
+                                            Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus praesent
+                                            nulla
+                                            ut a id.
+                                        </p>
+                                        <span class="triange">
+                                            <svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-10 m-40-20">
+                                        <img class="pointer" src="./assets/img/svg/profile-pic3.svg" alt="profile-pic">
+                                        <div>
+                                            <h4 class="mb-1 fw-400 fs-20 lh-24 clr-black-01">Esther Howard</h4>
+                                            <img class="pointer" src="./assets/img/svg/star.svg" alt="star-image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-6 mt-22 d-none d-sm-block">
+                                <div>
+                                    <div class="commet-box w-100 position-relative z-3">
+                                        <p class="mb-0 fw-400 fs-16 lh-24 clr-black opacity_08">
+                                            Urna ac eu cras pellentesque scelerisque et. Vestibulum sed felis leo leo
+                                            massa
+                                            elementum sit praesent eu.
+                                        </p>
+                                        <span class="triange">
+                                            <svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-10 m-40-20">
+                                        <img class="pointer" src="./assets/img/svg/profile-pic4.svg" alt="profile-pic">
+                                        <div>
+                                            <h4 class="mb-1 fw-400 fs-20 lh-24 clr-black-01">Jenny Wilson</h4>
+                                            <img class="pointer" src="./assets/img/svg/star.svg" alt="star-image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-6 mt-38 d-flex justify-content-around d-none d-sm-block">
+                                <div>
+                                    <div class="commet-box w-100 position-relative z-3">
+                                        <p class="mb-0 fw-400 fs-16 lh-24 clr-black opacity_08">
+                                            Nibh in commodo faucibus tincidunt. Adipiscing lobortis est elit neque sem
+                                            scelerisque tellus magna urna.
+                                        </p>
+                                        <span class="triange">
+                                            <svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-10 m-40-20">
+                                        <img class="pointer" src="./assets/img/svg/profile-pic5.svg" alt="profile-pic">
+                                        <div>
+                                            <h4 class="mb-1 fw-400 fs-20 lh-24 clr-black-01">Wade Warren</h4>
+                                            <img class="pointer" src="./assets/img/svg/star.svg" alt="star-image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_1140 ">
+                        <div class="row justify-content-center d-flex">
+                            <div class="col-lg-4 col-6 d-none d-sm-block">
+                                <div class="mt-26">
+                                    <div class="commet-box w-100 position-relative z-3">
+                                        <p class="mb-0 fw-400 fs-16 lh-24 clr-black opacity_08">
+                                            Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum
+                                            mollis
+                                            malesuada placerat in placerat
+                                        </p>
+                                        <span class="triange">
+                                            <svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-10 m-40-20">
+                                        <img class="pointer" src="./assets/img/svg/profile-pic1.svg" alt="profile-pic">
+                                        <div>
+                                            <h4 class="mb-1 fw-400 fs-20 lh-24 clr-black-01">Darrell Steward</h4>
+                                            <img class="pointer" src="./assets/img/svg/star.svg" alt="star-image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 col-12">
+                                <div class="mt-lg-40">
+                                    <div class="commet-box w-100 position-relative z-3">
+                                        <p class="mb-0 fw-400 fs-16 lh-24 clr-black opacity_08">
+                                            Magna ipsum erat magna nulla auctor. Phasellus consectetur aliquam vel at
+                                            non
+                                            faucibus viverra.
+                                        </p>
+                                        <span class="triange">
+                                            <svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-10 m-40-20">
+                                        <img class="pointer" src="./assets/img/svg/profile-pic2.svg" alt="profile-pic">
+                                        <div>
+                                            <h4 class="mb-1 fw-400 fs-20 lh-24 clr-black-01">Savannah Nguyend</h4>
+                                            <img class="pointer" src="./assets/img/svg/star.svg" alt="star-image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 d-none d-lg-block">
+                                <div class="mt-43">
+                                    <div class="commet-box w-100 position-relative z-3">
+                                        <p class="mb-0 fw-400 fs-16 lh-24 clr-black opacity_08">
+                                            Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus praesent
+                                            nulla
+                                            ut a id.
+                                        </p>
+                                        <span class="triange">
+                                            <svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-10 m-40-20">
+                                        <img class="pointer" src="./assets/img/svg/profile-pic3.svg" alt="profile-pic">
+                                        <div>
+                                            <h4 class="mb-1 fw-400 fs-20 lh-24 clr-black-01">Esther Howard</h4>
+                                            <img class="pointer" src="./assets/img/svg/star.svg" alt="star-image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-6 mt-22 d-none d-sm-block">
+                                <div>
+                                    <div class="commet-box w-100 position-relative z-3">
+                                        <p class="mb-0 fw-400 fs-16 lh-24 clr-black opacity_08">
+                                            Urna ac eu cras pellentesque scelerisque et. Vestibulum sed felis leo leo
+                                            massa
+                                            elementum sit praesent eu.
+                                        </p>
+                                        <span class="triange">
+                                            <svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-10 m-40-20">
+                                        <img class="pointer" src="./assets/img/svg/profile-pic4.svg" alt="profile-pic">
+                                        <div>
+                                            <h4 class="mb-1 fw-400 fs-20 lh-24 clr-black-01">Jenny Wilson</h4>
+                                            <img class="pointer" src="./assets/img/svg/star.svg" alt="star-image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-6 mt-38 d-flex justify-content-around d-none d-sm-block">
+                                <div>
+                                    <div class="commet-box w-100 position-relative z-3">
+                                        <p class="mb-0 fw-400 fs-16 lh-24 clr-black opacity_08">
+                                            Nibh in commodo faucibus tincidunt. Adipiscing lobortis est elit neque sem
+                                            scelerisque tellus magna urna.
+                                        </p>
+                                        <span class="triange">
+                                            <svg width="36" height="29" viewBox="0 0 36 29" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-10 m-40-20">
+                                        <img class="pointer" src="./assets/img/svg/profile-pic5.svg" alt="profile-pic">
+                                        <div>
+                                            <h4 class="mb-1 fw-400 fs-20 lh-24 clr-black-01">Wade Warren</h4>
+                                            <img class="pointer" src="./assets/img/svg/star.svg" alt="star-image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preBtn arrow d-flex align-items-center justify-content-center">
+                    <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9.54936 0.779599L0.343011 10.224C0.181315 10.3899 0.0908203 10.6124 0.0908203 10.8441C0.0908203 11.0757 0.181315 11.2982 0.343011 11.4641L9.54936 20.9121C9.62469 20.9894 9.71474 21.0509 9.81421 21.0929C9.91369 21.1349 10.0206 21.1565 10.1285 21.1565C10.2365 21.1565 10.3434 21.1349 10.4429 21.0929C10.5423 21.0509 10.6324 20.9894 10.7077 20.9121C10.8627 20.7534 10.9494 20.5404 10.9494 20.3187C10.9494 20.0969 10.8627 19.8839 10.7077 19.7253L2.05033 10.8441L10.7077 1.96459C10.8621 1.80603 10.9486 1.59343 10.9486 1.3721C10.9486 1.15076 10.8621 0.938165 10.7077 0.779599C10.6324 0.70224 10.5423 0.640754 10.4429 0.59877C10.3434 0.556786 10.2365 0.535156 10.1285 0.535156C10.0206 0.535156 9.91369 0.556786 9.81421 0.59877C9.71474 0.640754 9.62469 0.70224 9.54936 0.779599Z"
+                            fill="#F36A3E" />
+                    </svg>
+                </div>
+                <div class="nextBtn arrow d-flex align-items-center justify-content-center">
+                    <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1.83247 0.779599L11.0388 10.224C11.2005 10.3899 11.291 10.6124 11.291 10.8441C11.291 11.0757 11.2005 11.2982 11.0388 11.4641L1.83247 20.9121C1.75715 20.9894 1.6671 21.0509 1.56762 21.0929C1.46815 21.1349 1.36127 21.1565 1.2533 21.1565C1.14533 21.1565 1.03845 21.1349 0.938977 21.0929C0.839503 21.0509 0.749449 20.9894 0.674128 20.9121C0.519169 20.7534 0.432416 20.5404 0.432416 20.3187C0.432416 20.0969 0.519169 19.8839 0.674128 19.7253L9.33151 10.8441L0.674128 1.96459C0.5197 1.80603 0.433283 1.59343 0.433283 1.3721C0.433283 1.15076 0.5197 0.938165 0.674128 0.779599C0.749449 0.70224 0.839503 0.640754 0.938977 0.59877C1.03845 0.556786 1.14533 0.535156 1.2533 0.535156C1.36127 0.535156 1.46815 0.556786 1.56762 0.59877C1.6671 0.640754 1.75715 0.70224 1.83247 0.779599Z"
+                            fill="#F36A3E" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <!-- FaQ -->
+        <section class="py-160">
+            <div class="container_1140">
+                <h2 class="fw-500 fs-40 lh-48 clr-black-01 mb-50 text-sm-center">Frequently Asked Questions</h2>
+                <!-- faq -->
+                <div class="accordion mx-auto" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed fw-400 fs-20 lh-28 bg-white"
+                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true"
+                                aria-controls="collapseThree">
+                                <span>Q1. How does the CVhawk work?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse " aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="fw-400 fs-16 lh-24 clr-black opacity_08 mb-0">
+                                    Absolutely! We understand that your CV is a dynamic document that may require
+                                    updates and modifications over time.
+                                    <span class="d-none d-sm-inline">
+                                        Once you've saved your CV using our CVhawk, you can easily edit and make changes
+                                        whenever
+                                        needed.
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed fw-400 fs-24 lh-28 clr-black " type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                <span>Q2. Is the CVhawk completely free to use?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="fw-400 fs-16 lh-24 clr-black opacity_08 mb-0">
+                                    Absolutely! We understand that your CV is a dynamic document that may require
+                                    updates and modifications over time.
+                                    <span class="d-none d-sm-inline">
+                                        Once you've saved your CV using our CVhawk, you can easily edit and make changes
+                                        whenever
+                                        needed.
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button  fw-400 fs-24 lh-28 clr-black " type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                                aria-controls="collapseOne">
+                                <span>Q3. Can I edit my CV after I've saved it?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="fw-400 fs-16 lh-24 clr-black opacity_08 mb-0">
+                                    Absolutely! We understand that your CV is a dynamic document that may require
+                                    updates and modifications over time.
+                                    <span class="d-none d-sm-inline">
+                                        Once you've saved your CV using our CVhawk, you can easily edit and make changes
+                                        whenever
+                                        needed.
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed fw-400 fs-24 lh-28 clr-black" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                aria-controls="collapseFour">
+                                <span>Q4. Can I import my existing CV into the builder?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="fw-400 fs-16 lh-24 clr-black opacity_08 mb-0">
+                                    Absolutely! We understand that your CV is a dynamic document that may require
+                                    updates and modifications over time.
+                                    <span class="d-none d-sm-inline">
+                                        Once you've saved your CV using our CVhawk, you can easily edit and make changes
+                                        whenever
+                                        needed.
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed fw-400 fs-24 lh-28 clr-black" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                                aria-controls="collapseFive">
+                                <span>Q5. Is my personal information safe and secure?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="fw-400 fs-16 lh-24 clr-black opacity_08 mb-0">
+                                    Absolutely! We understand that your CV is a dynamic document that may require
+                                    updates and modifications over time.
+                                    <span class="d-none d-sm-inline">
+                                        Once you've saved your CV using our CVhawk, you can easily edit and make changes
+                                        whenever
+                                        needed.
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed fw-400 fs-24 lh-28 clr-black " type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
+                                aria-controls="collapseSix">
+                                <span>Q6. What kind of templates are available in the CV builder?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="fw-400 fs-16 lh-24 clr-black opacity_08 mb-0">
+                                    Absolutely! We understand that your CV is a dynamic document that may require
+                                    updates and modifications over time.
+                                    <span class="d-none d-sm-inline">
+                                        Once you've saved your CV using our CVhawk, you can easily edit and make changes
+                                        whenever
+                                        needed.
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- orange-box -->
+        <section class="mb-01 bg-white-blk">
+            <div class="container_1140">
+                <div class="orangeBox text-center">
+                    <h2 class="mb-3 fw-500 lh-48 text-center clr-white-fa fs-40"> Your Path to Success Starts Here:
+                        <span class="d-lg-block">Build <span class="d-md-block d-lg-inline">Your CV Today
+                    </h2>
+                    <p class="mb-40 fw-400 fs-16 lh-24 text-center clr-white-fa opacity_09">
+                        Our CV builder not only provides a user-friendly interface but also
+                        <span class="d-lg-inline d-md-block"> offers valuable<span class="d-lg-block">guidance along the
+                                way.</span></span>
+                    </p>
+                    <button class="fw-600 fs-16 lh-18 clr-black-01 started-btn">Get Started</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--- footer -->
+    <footer class="py-18-20 bg-blk-07 mt-01">
+        <div class="container_1140">
+            <div class="row justify-content-between">
+                <div class="col-md-4 col-12">
+                    <img src="./assets/img/png/footerlogo.webp" class="f-logo pointer" alt="CV-Hawk-logo">
+                    <p class="mb-33 fw-400 fs-16 lh-24 clr-white-fa opacity_09 mt-sm-2  mt-lg-0">
+                        Sit urna ornare sed quam molestie sit placerat convallis. Ac condiment mollis malesuada
+                        <span class="d-md-none d-lg-inline">placerat in placerat id facilisis.</span>
+                    </p>
+                    <div class="d-sm-flex align-items-center gap-32 d-none">
+                        <a class="social-logo" target="_blank" href="https://twitter.com/">
+                            <svg width="28" height="24" viewBox="0 0 28 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M25.804 1.76871C26.0929 1.77112 26.3756 1.8525 26.6215 2.00405C26.8675 2.1556 27.0673 2.37154 27.1993 2.62849C27.3313 2.88544 27.3905 3.17361 27.3705 3.46181C27.3505 3.75 27.2521 4.02723 27.0858 4.26348L25.49 6.5316C25.392 14.3207 22.787 19.6089 17.7469 22.2507C15.3451 23.4443 12.6915 24.0426 10.0099 23.9951C6.69401 24.0713 3.41735 23.2659 0.514696 21.6611C0.319433 21.5299 0.168521 21.3425 0.0818546 21.1238C-0.004812 20.9051 -0.0231644 20.6653 0.029217 20.4359C0.078256 20.2031 0.196719 19.9907 0.368972 19.8267C0.541225 19.6626 0.759171 19.5546 0.994049 19.517C2.944 19.2447 4.86417 18.7904 6.72944 18.1601C-1.62937 14.2931 0.193085 5.60046 0.989454 2.9311C1.06709 2.66608 1.21307 2.42615 1.41274 2.23538C1.61241 2.04462 1.85874 1.90973 2.12702 1.84425C2.39529 1.77877 2.67607 1.78501 2.94118 1.86234C3.20628 1.93967 3.44638 2.08537 3.63738 2.28481C6.08413 4.80598 9.32824 6.40233 12.8186 6.80268C12.7567 5.8647 12.9016 4.92458 13.2433 4.04886C13.585 3.17313 14.115 2.38321 14.7957 1.73501C15.9751 0.615757 17.5407 -0.0056661 19.1666 3.89365e-05C20.7925 0.00574397 22.3537 0.638138 23.5252 1.76564L25.804 1.76871ZM2.23148 20.8693C5.0831 22.2048 11.7665 23.6551 17.0363 20.8938C21.5618 18.5215 23.8912 13.6469 23.9601 6.40449C23.9632 6.16501 24.039 5.93214 24.1776 5.73677L25.8331 3.38135L25.7703 3.30018C24.977 3.28946 24.1944 3.27874 23.3965 3.30018C23.0854 3.29306 22.7876 3.17272 22.5588 2.96173C21.6772 2.06809 20.4802 1.55594 19.2251 1.53532C17.9699 1.5147 16.7568 1.98726 15.8463 2.85146C15.2615 3.40764 14.8244 4.10067 14.5744 4.86802C14.3244 5.63537 14.2694 6.45289 14.4144 7.2468C14.4411 7.3947 14.4337 7.54673 14.3928 7.69135C14.3519 7.83598 14.2787 7.96939 14.1785 8.08146C14.0826 8.19451 13.9604 8.28227 13.8226 8.33701C13.6848 8.39176 13.5357 8.41181 13.3883 8.39541C9.27355 8.10827 5.40991 6.31116 2.53931 3.34919C1.51322 6.5316 0.211462 14.2135 8.4646 17.232C8.63829 17.2944 8.79054 17.405 8.90342 17.551C9.0163 17.697 9.08509 17.8722 9.1017 18.056C9.12037 18.237 9.08707 18.4195 9.0057 18.5823C8.92433 18.745 8.79825 18.8812 8.64225 18.9749C6.6255 19.9583 4.45886 20.5986 2.23148 20.8693Z"
+                                    fill="#FAFAFA" />
+                            </svg>
+                        </a>
+                        <a class="social-logo" target="_blank" href="https://www.facebook.com/">
+                            <svg width="16" height="26" viewBox="0 0 16 26" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.574 1H10.974C9.38272 1 7.8566 1.63214 6.73138 2.75736C5.60616 3.88258 4.97402 5.4087 4.97402 7V10.6H1.37402V15.4H4.97402V25H9.77402V15.4H13.374L14.574 10.6H9.77402V7C9.77402 6.68174 9.90045 6.37652 10.1255 6.15147C10.3505 5.92643 10.6558 5.8 10.974 5.8H14.574V1Z"
+                                    stroke="#FAFAFA" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a class="social-logo" target="_blank" href="https://www.instagram.com/">
+                            <svg width="27" height="26" viewBox="0 0 27 26" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.5745 18.3346C14.989 18.3346 16.3456 17.7727 17.3458 16.7725C18.346 15.7723 18.9079 14.4158 18.9079 13.0013C18.9079 11.5868 18.346 10.2303 17.3458 9.23007C16.3456 8.22987 14.989 7.66797 13.5745 7.66797C12.1601 7.66797 10.8035 8.22987 9.80331 9.23007C8.80311 10.2303 8.24121 11.5868 8.24121 13.0013C8.24121 14.4158 8.80311 15.7723 9.80331 16.7725C10.8035 17.7727 12.1601 18.3346 13.5745 18.3346Z"
+                                    stroke="#FAFAFA" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M1.57422 18.3333V7.66667C1.57422 5.89856 2.2766 4.20286 3.52684 2.95262C4.77708 1.70238 6.47278 1 8.24089 1H18.9076C20.6757 1 22.3714 1.70238 23.6216 2.95262C24.8718 4.20286 25.5742 5.89856 25.5742 7.66667V18.3333C25.5742 20.1014 24.8718 21.7971 23.6216 23.0474C22.3714 24.2976 20.6757 25 18.9076 25H8.24089C6.47278 25 4.77708 24.2976 3.52684 23.0474C2.2766 21.7971 1.57422 20.1014 1.57422 18.3333Z"
+                                    stroke="#FAFAFA" stroke-width="1.5" />
+                                <path d="M20.9072 5.67873L20.9206 5.66406" stroke="#FAFAFA" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-md-8 col-12 mt-63 ">
+                    <div class="row justify-content-sm-end  ">
+                        <div class="col-sm-3 col-5">
+                            <ul class="ps-0 mb-0 d-flex flex-column gap-20">
+                                <li class="fs-16 fw-500 lh-24 clr-white">Quick Links</li>
+                                <li><a class="fw-400 fs-16 lh-24 clr-white-fa opacity_09 navItem" href="#Home">Home</a>
+                                </li>
+                                <li><a class="fw-400 fs-16 lh-24 clr-white-fa opacity_09 navItem"
+                                        href="#About">About</a></li>
+                                <li><a class="fw-400 fs-16 lh-24 clr-white-fa opacity_09 navItem"
+                                        href="#Wellhelpyou">We’ll
+                                        help you</a> </li>
+                                <li><a class="fw-400 fs-16 lh-24 clr-white-fa opacity_09 navItem"
+                                        href="#Testimonials">Testimonials</a> </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-sm-5 col-7 d-flex justify-content-center ">
+                            <div class="d-flex flex-column gap-20">
+                                <h4 class="fs-16 fw-500 lh-24 clr-white mb-0">Quick Links</h4>
+                                <a href="tel:+012 345 67890" class="mb-0 d-block fw-400 fs-16 lh-24 clr-white navItem">
+                                    <span class="me-6">
+                                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M11.0179 8.53906L9.43042 8.35781C9.24376 8.33589 9.05455 8.35656 8.87702 8.41826C8.69949 8.47996 8.53825 8.5811 8.40542 8.71406L7.25542 9.86406C5.48116 8.9617 4.03903 7.51957 3.13667 5.74531L4.29292 4.58906C4.56167 4.32031 4.69292 3.94531 4.64917 3.56406L4.46792 1.98906C4.43249 1.68417 4.28617 1.40296 4.05682 1.19897C3.82747 0.994975 3.53111 0.882449 3.22417 0.882813H2.14292C1.43667 0.882813 0.849171 1.47031 0.892921 2.17656C1.22417 7.51406 5.49292 11.7766 10.8242 12.1078C11.5304 12.1516 12.1179 11.5641 12.1179 10.8578V9.77656C12.1242 9.14531 11.6492 8.61406 11.0179 8.53906Z"
+                                                fill="#FAFAFA" />
+                                        </svg>
+                                    </span>
+                                    +012 345 67890</a>
+                                <a href="mailto:Cvhawk@gmail.com"
+                                    class="mb-0 d-block fw-400 fs-16 lh-24 clr-white navItem">
+                                    <span class="me-6">
+                                        <svg width="13" height="11" viewBox="0 0 13 11" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M11.5 0.5H1.5C0.8125 0.5 0.25625 1.0625 0.25625 1.75L0.25 9.25C0.25 9.9375 0.8125 10.5 1.5 10.5H11.5C12.1875 10.5 12.75 9.9375 12.75 9.25V1.75C12.75 1.0625 12.1875 0.5 11.5 0.5ZM11.5 3L6.5 6.125L1.5 3V1.75L6.5 4.875L11.5 1.75V3Z"
+                                                fill="#FAFAFA" />
+                                        </svg>
+                                    </span>
+                                    Cvhawk@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-6 mt-sm-0 mt-xsm-30">
+                            <ul class="ps-0 mb-0 d-flex flex-column gap-20">
+                                <li class="fs-16 fw-500 lh-24 clr-white">Quick Links</li>
+                                <li><a class="fw-400 fs-16 lh-24 clr-white-fa opacity_09 navItem"
+                                        href="#Privacy-Policy">Privacy
+                                        Policy</a></li>
+                                <li><a class="fw-400 fs-16 lh-24 clr-white-fa opacity_09 navItem"
+                                        href="#Terms&conditions">Terms
+                                        & conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-sm-none align-items-center gap-32 d-flex mt-xsm-40">
+                    <a class="social-logo" target="_blank" href="https://twitter.com/">
+                        <svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M25.804 1.76871C26.0929 1.77112 26.3756 1.8525 26.6215 2.00405C26.8675 2.1556 27.0673 2.37154 27.1993 2.62849C27.3313 2.88544 27.3905 3.17361 27.3705 3.46181C27.3505 3.75 27.2521 4.02723 27.0858 4.26348L25.49 6.5316C25.392 14.3207 22.787 19.6089 17.7469 22.2507C15.3451 23.4443 12.6915 24.0426 10.0099 23.9951C6.69401 24.0713 3.41735 23.2659 0.514696 21.6611C0.319433 21.5299 0.168521 21.3425 0.0818546 21.1238C-0.004812 20.9051 -0.0231644 20.6653 0.029217 20.4359C0.078256 20.2031 0.196719 19.9907 0.368972 19.8267C0.541225 19.6626 0.759171 19.5546 0.994049 19.517C2.944 19.2447 4.86417 18.7904 6.72944 18.1601C-1.62937 14.2931 0.193085 5.60046 0.989454 2.9311C1.06709 2.66608 1.21307 2.42615 1.41274 2.23538C1.61241 2.04462 1.85874 1.90973 2.12702 1.84425C2.39529 1.77877 2.67607 1.78501 2.94118 1.86234C3.20628 1.93967 3.44638 2.08537 3.63738 2.28481C6.08413 4.80598 9.32824 6.40233 12.8186 6.80268C12.7567 5.8647 12.9016 4.92458 13.2433 4.04886C13.585 3.17313 14.115 2.38321 14.7957 1.73501C15.9751 0.615757 17.5407 -0.0056661 19.1666 3.89365e-05C20.7925 0.00574397 22.3537 0.638138 23.5252 1.76564L25.804 1.76871ZM2.23148 20.8693C5.0831 22.2048 11.7665 23.6551 17.0363 20.8938C21.5618 18.5215 23.8912 13.6469 23.9601 6.40449C23.9632 6.16501 24.039 5.93214 24.1776 5.73677L25.8331 3.38135L25.7703 3.30018C24.977 3.28946 24.1944 3.27874 23.3965 3.30018C23.0854 3.29306 22.7876 3.17272 22.5588 2.96173C21.6772 2.06809 20.4802 1.55594 19.2251 1.53532C17.9699 1.5147 16.7568 1.98726 15.8463 2.85146C15.2615 3.40764 14.8244 4.10067 14.5744 4.86802C14.3244 5.63537 14.2694 6.45289 14.4144 7.2468C14.4411 7.3947 14.4337 7.54673 14.3928 7.69135C14.3519 7.83598 14.2787 7.96939 14.1785 8.08146C14.0826 8.19451 13.9604 8.28227 13.8226 8.33701C13.6848 8.39176 13.5357 8.41181 13.3883 8.39541C9.27355 8.10827 5.40991 6.31116 2.53931 3.34919C1.51322 6.5316 0.211462 14.2135 8.4646 17.232C8.63829 17.2944 8.79054 17.405 8.90342 17.551C9.0163 17.697 9.08509 17.8722 9.1017 18.056C9.12037 18.237 9.08707 18.4195 9.0057 18.5823C8.92433 18.745 8.79825 18.8812 8.64225 18.9749C6.6255 19.9583 4.45886 20.5986 2.23148 20.8693Z"
+                                fill="#FAFAFA" />
+                        </svg>
+                    </a>
+                    <a class="social-logo" target="_blank" href="https://www.facebook.com/">
+                        <svg width="16" height="26" viewBox="0 0 16 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.574 1H10.974C9.38272 1 7.8566 1.63214 6.73138 2.75736C5.60616 3.88258 4.97402 5.4087 4.97402 7V10.6H1.37402V15.4H4.97402V25H9.77402V15.4H13.374L14.574 10.6H9.77402V7C9.77402 6.68174 9.90045 6.37652 10.1255 6.15147C10.3505 5.92643 10.6558 5.8 10.974 5.8H14.574V1Z"
+                                stroke="#FAFAFA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                    <a class="social-logo" target="_blank" href="https://www.instagram.com/">
+                        <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M13.5745 18.3346C14.989 18.3346 16.3456 17.7727 17.3458 16.7725C18.346 15.7723 18.9079 14.4158 18.9079 13.0013C18.9079 11.5868 18.346 10.2303 17.3458 9.23007C16.3456 8.22987 14.989 7.66797 13.5745 7.66797C12.1601 7.66797 10.8035 8.22987 9.80331 9.23007C8.80311 10.2303 8.24121 11.5868 8.24121 13.0013C8.24121 14.4158 8.80311 15.7723 9.80331 16.7725C10.8035 17.7727 12.1601 18.3346 13.5745 18.3346Z"
+                                stroke="#FAFAFA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M1.57422 18.3333V7.66667C1.57422 5.89856 2.2766 4.20286 3.52684 2.95262C4.77708 1.70238 6.47278 1 8.24089 1H18.9076C20.6757 1 22.3714 1.70238 23.6216 2.95262C24.8718 4.20286 25.5742 5.89856 25.5742 7.66667V18.3333C25.5742 20.1014 24.8718 21.7971 23.6216 23.0474C22.3714 24.2976 20.6757 25 18.9076 25H8.24089C6.47278 25 4.77708 24.2976 3.52684 23.0474C2.2766 21.7971 1.57422 20.1014 1.57422 18.3333Z"
+                                stroke="#FAFAFA" stroke-width="1.5" />
+                            <path d="M20.9072 5.67873L20.9206 5.66406" stroke="#FAFAFA" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="mt-70 pt-20 border-top1">
+            <h4 class="text-center fw-500 fw-lg-400 fs-16 lh-24 clr-white-fa mb-0 opacity_09">Copyright@CVhawk2023</h4>
+        </div>
+        <!-- back - to - top  -->
+        <div id="myBtn" onclick="topFunction()" class="backtop">
+            <svg class="scale_06" width="34" height="34" viewBox="0 0 34 34" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.0835 17.0007V33.6673H14.9168V17.0007H0.333496L17.0002 0.333984L33.6668 17.0007H19.0835Z"
+                    fill="white" />
+            </svg>
+        </div>
+    </footer>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <!-- bootstrap.bundle.min.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <!-- external js -->
+    <script src="./assets/js/app.js"></script>
+    <!-- slick.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+</body>
+
+</html>
