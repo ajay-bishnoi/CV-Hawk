@@ -347,9 +347,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 90;
+    z-index: 90 !important;
     transition: 300ms linear;
-    min-height: 100vh !important;
+    height: 100% !important;
     width: 100%;
     background-color: var(--white);
   }
